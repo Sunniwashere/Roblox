@@ -1,3 +1,18 @@
+gameloaded = false
+
+while gameloaded == false do
+  wait()
+  pcall(function()
+    
+    if game:GetService("Players").LocalPlayer.Character.HumanoidRootPart ~= nil then
+      gameloaded = true
+    end
+
+  end)
+end
+
+wait(2)
+
 local Hashes = {
     
     --New 19.1.21
