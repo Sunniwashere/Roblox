@@ -1,0 +1,26 @@
+local Hashes = {
+    
+    --New 19.1.21
+    GetGun = "c827c5aa",
+    TeamChange = "aa7a2f26",
+    AntiCheat = "cf6b4bfc", 
+    UnRagdoll = "a40e5580",
+    ExitCar = "f616193f",
+    SendSafe = "afb12787",
+    OpenSafe = "ae797150",
+    SkipSafeSlider = "ea1af48f",
+    SpawnVehicle = "aa2c31b1",
+    
+    }
+    
+    print(Hashes.GetGun,"GetGun Hash")
+    print(Hashes.TeamChange,"TeamChange Hash")
+    print(Hashes.AntiCheat,"AntiCheat Hash (Local)")
+    print(Hashes.UnRagdoll,"UnRagdoll Hash")
+    print(Hashes.ExitCar,"ExitCar Hash")
+    print(Hashes.SendSafe,"Gift Safe Hash")
+    print(Hashes.OpenSafe,"OpenSafe Hash")
+    print(Hashes.SkipSafeSlider,"SkipSafeSlider Hash")
+    print(Hashes.SpawnVehicle,"SpawnVehicle Hash")
+    
+    print("DM oak#5909 if you need help Using the Hashes ")
