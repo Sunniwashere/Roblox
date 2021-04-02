@@ -1,22 +1,9 @@
-gameloaded = false
-
-while gameloaded == false do
-  wait()
-  pcall(function()
-    
-    if game:GetService("Players").LocalPlayer.Character.HumanoidRootPart ~= nil then
-      gameloaded = true
-    end
-
-  end)
-end
-
-wait(2)
+repeat wait(.2) until Game:IsLoaded()
 
 local decalsyeeted = false -- Leaving this on makes games look shitty but the fps goes up by at least 20.
     local g = game
-    local w = g:GetService("Workspace")
-    local l = g:GetService("Lighting")
+    local w = g.Workspace
+    local l = g.Lighting
     local t = w.Terrain
     t.WaterWaveSize = 0
     t.WaterWaveSpeed = 0
